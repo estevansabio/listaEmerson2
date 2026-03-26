@@ -1,0 +1,22 @@
+package pctEx02;
+
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner receba = new Scanner(System.in);
+    int  num;
+    
+    System.out.println("Digite um número: ");
+    num = receba.nextInt();
+    
+    if (num == 0) {
+    	System.out.println("Seu número é igual 0");
+    }else {
+    	System.out.println("Seu número é maior que 0");
+    }
+	}
+
+}
